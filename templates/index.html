@@ -8,7 +8,7 @@
 <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-  
+
 </head>
 
 <body>
@@ -16,7 +16,7 @@
 	<h1>Predict Gym Analysis</h1>
 
      <!-- Main Input For Receiving Query to our ML -->
-    <form action="{{ url_for('predict')}}"method="post">
+    <form action="{{ url_for('predict')}}" method="post">
     	<input type="text" name="Age" placeholder="Age" required="required" />
         <input type="text" name="Height" placeholder="Height" required="required" />
 		<input type="text" name="weight" placeholder="weight" required="required" />
@@ -36,7 +36,7 @@
      3 --> Overweight--lean+cardio+protine+normal dite ->Healthy <br>
      4 --> Under weight--protines+carbs+normal weights ->Healthy <br>
  </h5>
- 
+
 
 
 </body>
